@@ -1,0 +1,11 @@
+Zaccaria Eliseo Carrettoni	10504151
+
+REPOSITORY LINK: https://github.com/IronZack95/IoT_TinyOSCooja
+
+TinyOS - Cooja
+
+Homework3.h Header files contains the structure of BROADCAST message, 
+composed by SenderID and conunter.
+I created only one OS for all the 3 motes, the separation of the different behaviours is driven by TOS_NODE_ID, with Switch Case statement. 
+In the Homework3C.nc is instantiated a local counter which is incremented every time the timer fires, 
+and for syncronization issues it is overrided by new the incoming message's counter. I used "printf" to Serial function to print out Debugging messages.
